@@ -9,14 +9,15 @@ body {
   color: white;
 }
 .hero{
-    margin: 0 4vw 0 10vw;
+    margin: 0 2vw 0 10vw;
 
 }
 h1{
     font-size: 55px;
 }
 p{
-    font-size: large;
+    font-size: medium;
+
 }
 .main {
   display: flex;
@@ -32,6 +33,7 @@ button {
   margin: 10vh 5vw 5vh 0vw;
   color: aliceblue;
   font-size: medium;
+  box-shadow: #c5c6c7;
   
 }
 button span{
@@ -54,7 +56,7 @@ button span{
   color: black;
 }
 .form p{
-    padding: 0 2.7vw 5vh;
+    padding: 0 2.1vw 5vh;
     font-size: small ;
     
 } 
