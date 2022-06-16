@@ -23,9 +23,6 @@ p{
   justify-content: center;
   align-items: center;
 }
-.credentials{
-    box-sizing: border-box;
-}
 button {
   border: none;
   background-color: rgb(72, 72, 150);
@@ -91,28 +88,32 @@ input {
 
 @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
 
+    
 .main {
   display: block;
   justify-content: center;
   align-items: center;
 }
 button {
-    margin: 3vh 5vw 5vh 10vw;
+    margin: 1vh 5vw 5vh 10vw;
   width: 83vw;
   
 }
 h1{
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
+    line-height: 30px;
 }
 p{
     font-size: medium;
     text-align: center;
+     line-height: 20px;
 }
 .form-holder{
     width: 73vw;
     margin: 0vh 5vw 0vh 10vw;
     /* padding: 3vh 5vw; */
+    margin-bottom: 4px;
 }
 input {
     width: 70vw;
@@ -121,7 +122,14 @@ input#submit {
      width: 77vw;
 
 }
+input:hover {
+  border: solid black;
+  color: #c5c6c7;
+}
 .form p{
     padding: 5px 0;
+}
+.credentials{
+    padding-bottom: 25px;
 }
     }
