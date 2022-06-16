@@ -31,7 +31,7 @@ button {
   background-color: rgb(72, 72, 150);
   height: 50px;
   border-radius: 10px;
-  width: 36.5vw;
+  width: 37vw;
   margin: 10vh 5vw 5vh 0vw;
   color: aliceblue;
   font-size: medium;
@@ -88,3 +88,40 @@ input {
   border: solid 2px grey;
   padding-left: 25px;
 }
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+
+.main {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+button {
+    margin: 3vh 5vw 5vh 10vw;
+  width: 83vw;
+  
+}
+h1{
+    font-size: 35px;
+    text-align: center;
+}
+p{
+    font-size: medium;
+    text-align: center;
+}
+.form-holder{
+    width: 73vw;
+    margin: 0vh 5vw 0vh 10vw;
+    /* padding: 3vh 5vw; */
+}
+input {
+    width: 70vw;
+}
+input#submit {
+     width: 77vw;
+
+}
+.form p{
+    padding: 5px 0;
+}
+    }
