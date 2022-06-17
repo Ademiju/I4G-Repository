@@ -1,4 +1,4 @@
-.body{
+body{
       background-color: black;
 
 }
@@ -10,20 +10,22 @@
 .yellow {
   grid-area: row1-col-2;
   background-color: rgb(248, 168, 56);
-  height: 220px;
+  height: 230px;
+  
 }
 .green{
-  /* height: 150px; */
+  
   background-color: rgb(62, 193, 62);
    grid-area:row2-col-1;
+   
+
   
 
   
 }
 .blue {
-  /* display: grid; */
   background-color: rgb(79, 182, 246);
-  height: 150px;
+  height: 16.7vh;
    grid-area:row2-col-2;
 }
 .blue2 {
@@ -37,8 +39,8 @@
   grid-template-areas: 'row1-col-1 row1-col-1 row1-col-1 row1-col-1 row1-col-2 row1-col-2'
                        'row2-col-1 row2-col-1 row2-col-1 row2-col-2 row2-col-2 row2-col-2' 
                        'row2-col-1 row2-col-1 row2-col-1 row2-col-3 row2-col-3 row2-col-3';
-  grid-gap: 10px;
+  grid-gap: 15px;
   
-  margin: 7vh 12vw 0vh 17vw;
+  margin: 7vh 17vw 0vh 12vw;
   
 }
